@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  overflow-wrap: break-word;
+  color: black;
+  background: linear-gradient(135deg, #f5f7fa 0%, #3498db 100%);
+}
+
+ol,ul{
+  list-style: none;
+  text-decoration: none;
+}
+button, a{
+  cursor: pointer;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+
+}
+h1,h2,h3,h4,h5,h6,p,span{
+  cursor: default;
+  text-align: center;
+}

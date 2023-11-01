@@ -1,0 +1,53 @@
+.card {
+  width: 30%;
+  min-height: 200px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 8px 9px #8d8e8f;
+  text-align: center;
+  background-color: #ffffff;
+  color: #3498db;
+  transition: all .5s;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.card a {
+  margin-bottom: 15px;
+  display: block;
+  color: #3498db;
+  transition: color 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 10px 15px #4d5051;
+  background-color: #44a1df;
+  color: #fff;
+  border: none;
+}
+
+.card:hover a {
+  color: #fff;
+}
+
+@media (max-width:1280px) {
+  .card {
+    width: 40%;
+  }
+}
+@media (max-width:767px){
+  .card{
+    width: 80%;
+  }
+}
+@media (max-width:479px){
+  .card{
+    width: 100%;
+    margin: 20px 0px;
+  }
+}
